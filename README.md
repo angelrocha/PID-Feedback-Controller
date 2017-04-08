@@ -1,0 +1,3 @@
+# PID-Feedback-Controller
+AE157 Final Project
+The purpose of this project is to design a controller with optimal PID gains for a 3DOF helicopter. The helicopter used is the Quanser 3DOF Helicopter with pitch, travel, and elevation freedoms. The Matlab code relies on provided system dynamics of the helicopter. The code is broken into 3 parts. The first part "157Dynamics" generates I/O transfer functions and open loop dynamics for each state based on matrix models. The second part "157PIDTuner" generates PID values which meets system requirements for Overshoot and Settling Time. From the generated gains, Kp, Ki, and Kd values are applied to a closed loop controller given in "157CLSystemController"
